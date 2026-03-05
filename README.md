@@ -6,7 +6,7 @@ Implementação de uma estrutura de dados de lista ligada simples e liguagem C.
 
 Este programa implementa uma lista ligada utilizando estrutura e ponteiros em C.
 
-Cada nó da lista armazena um valor e um ponteiro para o próximo nó. O programa cria novos nós dinamicamente usando malloc, conecta os nós formado a lista e percore a estrutura imprimindo os elementos armzenados.
+Cada nó da lista armazena um valor e um ponteiro para o próximo nó. O programa cria novos nós dinamicamente usando malloc, conecta os nós formando a lista e percorre a estrutura imprimindo os elementos armzenados.
 
 
 ## Estrutura do projeto
@@ -15,14 +15,14 @@ LinguagemC/
  ListaLigada.c ->
 implementção da lista ligada
 
-#Compilação
+## Compilação
 
 gcc LinguagemC/ListaLigada.c -o lista
 
-#Execução 
+## Execução 
 ./lista
 
-## Conceitod utilizados
+## Conceitos utilizados
 
 - Estrutura ('struct')
 - Ponteiros
